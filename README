@@ -1,0 +1,33 @@
+NAME
+    Geo::States - Lookup states and capitals by state names or abbreviations
+
+SYNOPSIS
+      use Geo::States;
+
+      my $COUNTRY = 'US' || 'CA';
+      my $geo = Geo::States->new($COUNTRY);
+
+      say $geo->find('TN')->text;        # Tennessee
+      say $geo->find('Tennessee')->text; # TN
+      say $geo->find('TN')->capital;     # Nashville
+
+DESCRIPTION
+    Geo::States will find a US or Canadian state/province (by name or
+    abbreviation) and return an object with two subroutines:
+
+    text()
+        The text of the state. If given full name, text() will return the
+        abbreviation, and vice versa.
+
+    capital()
+        Returns the capital name of the given state
+
+AUTHOR
+    Curtis Brandt <curtis@cpan.org>
+
+COPYRIGHT
+    Copyright (C) <2014> Curtis Brandt <curtis@cpan.org>
+
+LICENSE
+    MIT license. See LICENSE file for details.
+
