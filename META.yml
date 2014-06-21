@@ -23,10 +23,9 @@ no_index:
     - eg
     - examples
 requires:
-  Carp: '0'
   perl: '5.008005'
 resources:
   bugtracker: https://github.com/aggrolite/Geo-States/issues
   homepage: https://github.com/aggrolite/Geo-States
   repository: https://github.com/aggrolite/Geo-States.git
-version: '0.01'
+version: '0.02'
