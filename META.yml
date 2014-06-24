@@ -28,4 +28,6 @@ resources:
   bugtracker: https://github.com/aggrolite/Geo-States/issues
   homepage: https://github.com/aggrolite/Geo-States
   repository: https://github.com/aggrolite/Geo-States.git
-version: '0.02'
+version: '0.03'
+x_contributors:
+  - 'Ed Freyfogle <freyfogle@users.noreply.github.com>'
