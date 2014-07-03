@@ -41,6 +41,7 @@
       },
       "test" : {
          "requires" : {
+            "Test::Exception" : "0.32",
             "Test::More" : "0.96",
             "Test::NoWarnings" : "1.03"
          }
@@ -58,9 +59,10 @@
          "web" : "https://github.com/aggrolite/Geo-States"
       }
    },
-   "version" : "0.03",
+   "version" : "0.04",
    "x_contributors" : [
-      "Ed Freyfogle <freyfogle@users.noreply.github.com>"
+      "Ed Freyfogle <freyfogle@users.noreply.github.com>",
+      "Mike Friedman <friedo@friedo.com>"
    ]
 }
 

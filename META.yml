@@ -3,6 +3,7 @@ abstract: 'Lookup states and capitals by state names or abbreviations'
 author:
   - 'Curtis Brandt <curtis@cpan.org>'
 build_requires:
+  Test::Exception: '0.32'
   Test::More: '0.96'
   Test::NoWarnings: '1.03'
 configure_requires:
@@ -28,6 +29,7 @@ resources:
   bugtracker: https://github.com/aggrolite/Geo-States/issues
   homepage: https://github.com/aggrolite/Geo-States
   repository: https://github.com/aggrolite/Geo-States.git
-version: '0.03'
+version: '0.04'
 x_contributors:
   - 'Ed Freyfogle <freyfogle@users.noreply.github.com>'
+  - 'Mike Friedman <friedo@friedo.com>'

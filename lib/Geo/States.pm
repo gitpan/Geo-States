@@ -6,7 +6,7 @@ use warnings;
 use utf8;
 use Carp ();
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 # first, our giant data structure
 our %state_abbr = (
@@ -95,7 +95,8 @@ sub new {
 
     $country = lc($country);
 
-    Carp::croak "Supported country codes include US and CA" unless $country eq 'us' || 'ca';
+    Carp::croak "Supported country codes include US and CA"
+        unless $country eq 'us' or $country eq 'ca';
 
     # we already have a hash written, this code will
     #   build the same hash with the names and abbrv. swapped

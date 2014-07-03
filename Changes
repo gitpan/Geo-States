@@ -1,5 +1,9 @@
 Revision history for Geo-States
 
+0.04  2014-07-03 09:57:24 PDT
+        -Fix country code logic + test (thanks Mike Friedman)
+        -Require Test::Exception for testing
+
 0.03  2014-06-24 16:32:33 PDT
         - Add US non-states (thanks Ed Freyfogle)
         - Add CA territories

@@ -10,6 +10,7 @@ cpanfile
 dist.ini
 lib/Geo/States.pm
 t/canada.t
+t/country.t
 t/pod.t
 t/release-pod-syntax.t
 t/usa.t
